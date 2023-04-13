@@ -73,6 +73,10 @@ namespace _230413_plt_test
 
             double xmin = x_center -width * step/2;
             double ymin = y_center -height * step/2;
+
+            var sw = new System.Diagnostics.Stopwatch();
+            sw.Start();
+
             for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < height; y++)
@@ -101,8 +105,19 @@ namespace _230413_plt_test
                 }
             }
 
+            sw.Stop();
+            Console.WriteLine($"calcurate: {sw.ElapsedMilliseconds}ms");
+            sw.Restart();
+
             g.DrawImage(picData, 0, 0);
+
+            sw.Stop();
+            Console.WriteLine($"draw: {sw.ElapsedMilliseconds}ms");
+            sw.Restart();
+
             g.Dispose();
+            sw.Stop();
+            Console.WriteLine($"free: {sw.ElapsedMilliseconds}ms");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
