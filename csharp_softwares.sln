@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mandelbrot_plt", "230413_plt_test\mandelbrot_plt.csproj", "{A7DE3238-3702-4CE2-861A-189D7486A840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7DE3238-3702-4CE2-861A-189D7486A840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DE3238-3702-4CE2-861A-189D7486A840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DE3238-3702-4CE2-861A-189D7486A840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DE3238-3702-4CE2-861A-189D7486A840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {768AE702-336C-468B-890F-C1E16D90BB21}
+	EndGlobalSection
+EndGlobal
